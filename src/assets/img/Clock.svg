@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="84px" height="84px" viewBox="0 0 84 84" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Clock</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Landing-UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-Page-1" transform="translate(-259.000000, -970.000000)">
+            <g id="Features" transform="translate(0.000000, 843.000000)">
+                <g id="Clock" transform="translate(263.000000, 127.000000)">
+                    <circle id="Oval-2-Copy-3" stroke="#5A5E62" stroke-width="7.48" cx="36.1451613" cy="43.8548387" r="36.1451613"></circle>
+                    <path d="M36.1451613,80 C56.1075827,80 71.967,63.8172601 71.967,43.8548387 C71.967,23.8924173 56.1075827,8 36.1451613,8 C16.1827399,8 3.04822834e-12,23.8924173 3.04822834e-12,43.8548387 C3.04822834e-12,63.8172601 16.1827399,80 36.1451613,80 Z" id="Oval-2-Copy-4" stroke="#42464A" stroke-width="7.48" fill="#383C3F"></path>
+                    <path d="M79.8548387,44.8548387 L67.4435484,44.8548387 C67.4435484,26.9367617 52.918077,12.4112903 35,12.4112903 L35,0 C59.7726434,0 79.8548387,20.0821953 79.8548387,44.8548387 Z" id="Combined-Shape" fill="#FFCC01" fill-rule="nonzero"></path>
+                    <path d="M40.0645161,40.3709677 L21.0720445,59.3634394" id="Line-3" stroke="#BFBFBF" stroke-width="0.88" stroke-linecap="square"></path>
+                    <polygon id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" points="35 32 36 30 37 32 37 51 35 51"></polygon>
+                    <path d="M32,44 C32,46.2064 33.7936,48 36,48 C38.2064,48 40,46.2064 40,44 C40,41.7952 38.2064,40 36,40 C33.7936,40 32,41.7952 32,44 Z" id="Fill-105" fill="#FFFFFF"></path>
+                    <path d="M36,42 C34.8968,42 34,42.8976 34,44 C34,45.1032 34.8968,46 36,46 C37.1032,46 38,45.1032 38,44 C38,42.8976 37.1032,42 36,42" id="Fill-105-Copy" fill="#FFCC01"></path>
+                    <polygon id="Rectangle" fill="#FFCE01" fill-rule="nonzero" points="29 43 59 43 61 44 59 45 29 45"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

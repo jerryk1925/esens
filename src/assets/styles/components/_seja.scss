@@ -1,0 +1,120 @@
+.seja{
+  width: 1120px;
+  @media screen and (max-width: 1120px) {
+    width: 100%;
+    padding: 0 25px;
+  }
+  &-wrapper{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 160px 0;
+    @media screen and (max-width: 768px) {
+      padding: 48px 0;
+    }
+    @media screen and (max-width: 480px) {
+      padding: 48px 0 43px 0;
+    }
+  }
+  &-title{
+    text-align: center;
+    h1{
+      color: #202428;
+      font-size: 50px;
+      font-weight: 700;
+      margin: 0;
+      margin-top: 7px;
+      @media screen and (max-width: 480px) {
+        font-size: 32px;
+        box-sizing: border-box;
+        padding: 0 12px;
+        margin-top: 4px;
+      }
+    }
+    p{
+      color: #202428;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 32px;
+      margin: 0;
+      margin-top: 18px;
+    }
+  }
+  &-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 73px;
+    @media screen and (max-width: 768px) {
+      flex-wrap: wrap;
+    }
+    @media screen and (max-width: 480px) {
+      margin-top: 50px;
+    }
+  }
+  &-item{
+    width: 28%;
+    text-align: center;
+    @media screen and (max-width: 900px) {
+      width: 33%;
+    }
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      margin-bottom: 50px;
+    }
+    &:nth-child(3) {
+      @media screen and (max-width: 480px) {
+        margin-bottom: 0;
+      }
+    }
+    &__img{
+      height: 84px;
+      @media screen and (max-width: 768px) {
+        height: auto;
+      }
+    }
+    &__name{
+      color: #202428;
+      font-size: 24px;
+      font-weight: 700;
+      margin-top: 30px;
+      height: 54px;
+      @media screen and (max-width: 1048px) {
+        height: 80px;
+      }
+      @media screen and (max-width: 768px) {
+        height: auto;
+      }
+      @media screen and (max-width: 480px) {
+        margin-top: 20px;
+      }
+    }
+    &__text{
+      color: #5c6268;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 24px;
+      margin-top: 16px;
+      &--small{
+        width: 81%;
+        margin: 0 auto;
+        margin-top: 20px;
+        @media screen and (max-width: 768px) {
+          width: 100%;
+        }
+        @media screen and (max-width: 480px) {
+          padding: 0 10px;
+          box-sizing: border-box;
+        }
+      }
+      &--last{
+        width: 86%;
+        margin: 0 auto;
+        margin-top: 20px;
+        @media screen and (max-width: 768px) {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

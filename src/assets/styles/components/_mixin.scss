@@ -1,0 +1,18 @@
+@mixin btn($bg: $black, $fs: 18px, $lh: 13px, $ls: 0.5px, $clr: $white, $fw: 700, $h: 54px, $w: 191px) {
+  color: $clr;
+  font-size: $fs;
+  line-height: $lh;
+  letter-spacing: $ls;
+  background-color: $bg;
+  height: $h;
+  width: $w;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0px;
+  text-decoration: none;
+  font-weight: $fw;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}

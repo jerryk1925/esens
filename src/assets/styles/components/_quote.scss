@@ -1,0 +1,83 @@
+.quote{
+  width: 970px;
+  position: relative;
+  padding: 55px 55px 55px 95px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 12px 16px rgba(32, 36, 40, 0.1);
+  @media screen and (max-width: 1140px) {
+    width: 100%;
+    padding: 55px 25px 55px 25px;
+    box-sizing: border-box;
+  }
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    padding: 56px 25px 50px 25px;
+    flex-wrap: wrap;
+    box-shadow: none ;
+  }
+  &-wrapper{
+    background-color: #feffff;
+    position: absolute;
+    bottom: -108px;
+    @media screen and (max-width: 1120px) {
+      display: flex;
+    }
+    @media screen and (max-width: 900px) {
+      position: relative;
+      bottom: 0;
+      margin-top: 65px;
+    }
+  }
+  &-img{
+    position: absolute;
+    top: -17px;
+    left: 12px;
+    @media screen and (max-width: 480px) {
+      top: -14px;
+      left: 23px;
+    }
+  }
+  &-article{
+    width: 69%;
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      text-align: center;
+    }
+    &__title{
+      color: #5c6268;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 24px;
+    }
+    &__text{
+      color: #202428;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 32px;
+      margin-bottom: 10px;
+    }
+  }
+  &-btn{
+    align-self: flex-end;
+    @media screen and (max-width: 768px) {
+      margin: 0 auto;
+      margin-top: 24px;
+    }
+    @media screen and (max-width: 480px) {
+      width: 100%;
+    }
+    button{
+      $values: (fs: 14px, lh: 13px, ls: 0.5px, bg: #202428, clr: #feffff);
+      @include btn($values...);
+      @media screen and (max-width: 480px) {
+        width: 100%;
+        padding: 22px 37px;
+      }
+      a{
+        text-decoration: none;
+        color: #feffff;
+      }
+    }
+  }
+}

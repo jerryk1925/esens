@@ -1,0 +1,73 @@
+.ajude{
+  width: 1120px;
+  @media screen and (max-width: 1140px) {
+    width: 100%;
+  }
+  @media screen and (max-width: 768px) {
+    padding: 0 25px;
+    box-sizing: border-box;
+  }
+  &-wrapper{
+    z-index: 2;
+    text-align: center;
+    padding: 82px 0 86px;
+    bottom: -196px;
+    position: absolute;
+    background-color: #ffd11a;
+    box-shadow: 0 12px 16px rgba(110, 109, 58, 0.2);
+    @media screen and (max-width: 1140px) {
+      width: 100%;
+      box-shadow: none;
+    }
+    @media screen and (max-width: 900px) {
+      position: static;
+      
+    }
+    @media screen and (max-width: 480px) {
+      padding: 41px 0 48px;
+    }
+  }
+  &-title{
+    color: #202428;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0 auto;
+    width: 60%;
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
+    @media screen and (max-width: 480px) {
+      font-size: 32px;
+    }
+  }
+  &-text{
+    color: #202428;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 20px;
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
+  }
+  &-btn{
+    margin-top: 40px;
+    button{
+      $values: (fs: 14px, lh: 13px, ls: 0.5px,bg: #202428, clr: #feffff, w: 247px);
+      @include btn($values...);
+      margin: 0 auto;
+      @media screen and (max-width: 480px) {
+        width: 100%;
+      }
+      i{
+        color: #ffd11a;
+        margin-left: 10px;
+      }
+    }
+  }
+}

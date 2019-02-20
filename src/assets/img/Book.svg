@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="78px" viewBox="0 0 62 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Book</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Landing-UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-Page-1" transform="translate(-1102.000000, -971.000000)">
+            <g id="Book" transform="translate(1102.000000, 971.000000)">
+                <polygon id="Rectangle-15" fill="#42464A" points="0 4.03710937 62 4.03710937 62 78 0 78"></polygon>
+                <polygon id="Rectangle-15-Copy" fill="#383C3F" points="0 4.05859375 8 4.05859375 8 78 0 78"></polygon>
+                <polygon id="Path-12" fill="#FFCC01" points="25.0517578 25.9707031 25.0517578 52.0888672 47 38.9869871"></polygon>
+                <polygon id="Rectangle-16" fill="#FFCC01" points="45 3.84718995e-16 54 3.84718995e-16 54 11 49.5031738 8 45 11"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

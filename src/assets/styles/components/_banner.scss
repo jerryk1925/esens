@@ -1,0 +1,121 @@
+.banner{
+  width: 1120px;
+  display: flex;
+  @media screen and (max-width: 1120px) {
+    width: 100%;
+    padding: 0 24px;
+  }
+  @media screen and (max-width: 600px) {
+    padding: 0 26px;
+  }
+  &-wrapper{
+    position: relative;
+    padding: 78px 0 309px;
+    background-color: #202428;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media screen and (max-width: 1120px) {
+      padding: 78px 0 200px;
+    }
+    @media screen and (max-width: 900px) {
+      padding: 50px 0px 0px 0px;
+      flex-wrap: wrap;
+    }
+  }
+  &-text{
+    width: 50%;
+    @media screen and (max-width: 900px) {
+      width: 100%;
+    }
+    @media screen and (max-width: 768px) {
+      text-align: center;
+    }
+    &__title{
+      color: #ffffff;
+      font-size: 50px;
+      font-weight: 800;
+      margin-bottom: 24px;
+      padding-top: 50px;
+      @media screen and (max-width: 900px) {
+        padding-top: 0px;
+      }
+      @media screen and (max-width: 480px) {
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 1.25;
+      }
+    }
+    &__about{
+      color: #ffffff;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 31px;
+      width: 75%;
+      margin-bottom: 24px;
+      @media screen and (max-width: 768px) {
+        width: 100%;
+      }
+      @media screen and (max-width: 480px) {
+        font-size: 18px;
+        margin-bottom: 16px;
+      }
+    }
+    &__par{
+      width: 65%;
+      color: #bfbfbf;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 24px;
+      margin-bottom: 40px;
+      @media screen and (max-width: 768px) {
+        width: 100%;
+      }
+      @media screen and (max-width: 480px) {
+        font-size: 15px;
+        margin-bottom: 19px;
+        box-sizing: border-box;
+        padding: 0 20px;
+      }
+      &-close{
+        @media screen and (max-width: 480px) {
+          display: none;
+        }
+      }
+    }
+    &__btn{
+      button{
+        $values: (fs: 14px, lh: 13px, ls: 0.5px, bg: #ffce01, clr: #202428);
+        @include btn($values...);
+        @media screen and (max-width: 768px) {
+          margin: 0 auto;
+        }
+        @media screen and (max-width: 480px) {
+          width: 100%;
+        }
+      }
+    }
+  }
+  &-img{
+    height: 520px;
+    border: 1px solid #ffce01;
+    margin-left: 10px;
+    @media screen and (max-width: 1140px) {
+      width: 46.5%;
+      height:100%;
+    }
+    @media screen and (max-width: 900px) {
+      display: none;
+    }
+    img{
+      position: relative;
+      top: 30px;
+      left: 30px;
+      @media screen and (max-width: 1140px) {
+        width: 100%;
+        left: 28px;
+      }
+    }
+  }
+}

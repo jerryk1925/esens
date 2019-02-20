@@ -1,0 +1,291 @@
+.impacto{
+  width: 1120px;
+  display: flex;
+  @media screen and (max-width: 1140px) {
+    width: 100%;
+    padding: 0 24px;
+    box-sizing: border-box;
+  }
+  @media screen and (max-width: 900px) {
+    flex-wrap: wrap;
+  }
+  @media screen and (max-width: 768px) {
+    padding: 0 ;
+  }
+  &-wrapper{
+    position: relative;
+    background-color: #202428;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 160px 0 403px 0;
+    margin-bottom: 197px;
+    @media screen and (max-width: 900px) {
+      margin: 0;
+      padding-bottom: 0;
+    }
+    @media screen and (max-width: 768px) {
+      padding-top: 40px;
+    }
+  }
+  &-text{
+    width: 50%;
+    margin-right: 10px;
+    @media screen and (max-width: 900px) {
+      width: 100%;
+      margin-right: 0px;
+    }
+    @media screen and (max-width: 768px) {
+      text-align: center;
+      padding: 0 25px;
+    }
+    h1{
+      width: 90%;
+      color: #ffffff;
+      font-size: 50px;
+      font-weight: 700;
+      margin: 0;
+      @media screen and (max-width: 768px) {
+        width: 100%;
+      }
+      @media screen and (max-width: 480px) {
+        font-size: 32px;
+      }
+    }
+    p{
+      color: #bfbfbf;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 32px;
+      margin: 0;
+      margin-top: 24px;
+      @media screen and (max-width: 480px) {
+        font-size: 15px;
+        line-height: 24px;
+        margin-top: 27px;
+      }
+    }
+  }
+  &-list{
+    margin-top: 34px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    @media screen and (max-width: 480px) {
+      margin-top: 46px;
+    }
+  }
+  &-item{
+    width: 49%;
+    margin-bottom: 43px;
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
+    @media screen and (max-width: 480px) {
+      margin-bottom: 48px;
+    }
+    &--small{
+      @media screen and (max-width: 480px) {
+        box-sizing: border-box;
+        padding: 0 30px;
+      }
+    }
+    &__number{
+      color: #ffcc01;
+      font-size: 23px;
+      font-weight: 500;
+    }
+    &__name{
+      color: #ffffff;
+      font-size: 24px;
+      font-weight: 500;
+      margin-top: 18px;
+      width: 82%;
+      @media screen and (max-width: 768px) {
+        width: 100%;
+      }
+      &--nametr{
+        @media screen and (max-width: 480px) {
+          padding: 0 24px;
+          box-sizing: border-box;
+        }
+      }
+      &--small{
+        width: 50%;
+        @media screen and (max-width: 768px) {
+          width: 100%;
+        }
+        @media screen and (max-width: 480px) {
+          padding: 0 86px;
+          box-sizing: border-box;
+        }
+      }
+    }
+    &__text{
+      color: #bfbfbf;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 24px;
+      margin-top: 24px;
+      width: 85%;
+      @media screen and (max-width: 768px) {
+        width: 100%;
+      }
+      &--nametr{
+        @media screen and (max-width: 480px) {
+          padding: 0 18px;
+          box-sizing: border-box;
+        }
+      }
+      &--mar{
+        margin-top: 50px;
+        @media screen and (max-width: 900px) {
+          margin-top: 24px;
+        }
+        @media screen and (max-width: 480px) {
+          padding: 0 33px;
+          box-sizing: border-box;
+          margin-bottom: 11px;
+        }
+      }
+    }
+  }
+  &-img{
+    background-color: #2d3033;
+    height: 607px;
+    margin-top: 34px;
+    width: 46.5%;
+    box-sizing: border-box;
+    padding: 0px 30px;
+    padding-bottom: 20px;
+    @media screen and (max-width: 1140px) {
+      height:100%;
+    }
+    @media screen and (max-width: 900px) {
+      width: 100%;
+      text-align: center;
+    }
+    @media screen and (max-width: 768px) {
+      padding-bottom: 150px;
+    }
+    @media screen and (max-width: 480px) {
+      padding: 0px 24px;
+      padding-bottom: 120px;
+    }
+    img{
+      position: relative;
+      left: 0;
+      bottom: 34px;
+      @media screen and (max-width: 1140px) {
+        width: 100%;
+      }
+      @media screen and (max-width: 900px) {
+        width: 60%;
+      }
+      @media screen and (max-width: 480px) {
+        width: 100%;
+        bottom: 57px;
+        height: 312px;
+      }
+    }
+    p{
+      color: #5c6268;
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 24px;
+      margin: 0;
+      position: relative;
+      margin-top: 8px;
+      @media screen and (max-width: 480px) {
+        margin-top: 51px;
+      }
+      &:before{
+        content: '—';
+        margin-right: 12px;
+        @media screen and (max-width: 480px) {
+          position: absolute;
+          top: -30px;
+          left: 0;
+          right: 0;
+          margin: auto;
+        }
+      }
+      &:nth-child(2){
+        color: #bfbfbf;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 24px;
+        margin-top: -4px;
+        @media screen and (max-width: 480px) {
+          margin-top: -40px;
+        }
+        &:before{
+          content: ''
+        }
+      }
+    }
+  }
+  &-btn{
+    margin-top: 30px;
+    @media screen and (max-width: 1120px) {
+      margin-bottom: 48px;
+    }
+    @media screen and (max-width: 768px) {
+      position: absolute;
+      bottom: 500px;
+    }
+    @media screen and (max-width: 600px) {
+      position: absolute;
+      bottom: 650px;
+    }
+    @media screen and (max-width: 480px) {
+      bottom: 400px;
+    }
+    @media screen and (max-width: 430px) {
+      bottom: 460px;
+    }
+    @media screen and (max-width: 410px) {
+      bottom: 460px;
+    }
+    @media screen and (max-width: 392px) {
+      bottom: 460px;
+    }
+    @media screen and (max-width: 365px) {
+      bottom: 465px;
+    }
+    button{
+      $values: (fs: 14px, lh: 13px, ls: 0.5px, bg: #ffce01, clr: #202428);
+      @include btn($values...);
+      @media screen and (max-width: 480px) {
+        width: 314px;
+      }
+    }
+  }
+  &-fense{
+    position: absolute;
+    bottom: 0px;
+    height: 290px;
+    overflow: hidden;
+    width: 1920px;
+    @media screen and (max-width: 1920px) {
+      width: 100%;
+    }
+    @media screen and (max-width: 1120px) {
+      display: none;
+    }
+    img{
+      width: 100%;
+      position: absolute;
+      bottom: -10px;
+      height: 300px;
+    }
+  }
+}
+br{
+  display: none;
+  @media screen and (max-width: 480px) {
+    display: block;
+  }
+}

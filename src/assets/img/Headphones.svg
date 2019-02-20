@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="81px" height="80px" viewBox="0 0 81 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>Headphones</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Landing-UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing-Page-1" transform="translate(-681.000000, -973.000000)">
+            <g id="Headphones" transform="translate(684.000000, 977.000000)">
+                <path d="" id="Path-11" stroke="#404446" stroke-width="0.88" fill-rule="nonzero"></path>
+                <path d="M1,55 L1,35.9448819 C1,16.0930718 17.3416066,0 37.5,0 C57.6583934,0 74,16.0930718 74,35.9448819 L74,55" id="Rectangle" stroke="#383C3F" stroke-width="7.92" stroke-linecap="round"></path>
+                <path d="M58.9173159,74.0361328 C67.8038518,74.0361328 75.0078125,66.8483582 75.0078125,58 C75.0078125,49.1516418 67.8038518,42.0205078 58.9173159,42.0205078 L58.9173159,74.0361328 Z" id="Oval-5" fill="#42464A" fill-rule="nonzero"></path>
+                <path d="M55.8132227,40 L59.0236686,40 L59.0236686,76 L55.8132227,76 C54.8412015,76 54.0532227,75.2120212 54.0532227,74.24 L54.0532227,41.76 C54.0532227,40.7879788 54.8412015,40 55.8132227,40 Z" id="Rectangle-2" fill="#FFCC01" fill-rule="nonzero"></path>
+                <path d="M-4.97379915e-14,73.951416 C8.8865359,73.951416 16.0904966,66.8483582 16.0904966,58 C16.0904966,49.1516418 8.8865359,42.0563965 -4.97379915e-14,42.0563965 C2.64630581e-12,63.4963458 2.64630581e-12,74.128019 -4.97379915e-14,73.951416 Z" id="Oval-5-Copy" fill="#42464A" fill-rule="nonzero" transform="translate(8.045248, 58.004988) scale(-1, 1) translate(-8.045248, -58.004988) "></path>
+                <path d="M17.7363314,40 L20.9929199,40 L20.9929199,76 L17.7363314,76 C16.7643102,76 15.9763314,75.2120212 15.9763314,74.24 L15.9763314,41.76 C15.9763314,40.7879788 16.7643102,40 17.7363314,40 Z" id="Rectangle-2-Copy" fill="#FFCC01" fill-rule="nonzero" transform="translate(18.484626, 58.000000) scale(-1, 1) translate(-18.484626, -58.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
