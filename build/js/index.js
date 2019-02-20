@@ -1,1 +1,3 @@
-console.log('hellowцукasde')
+function video() {
+  $(".js-modal-btn").modalVideo();
+}
